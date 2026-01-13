@@ -21,12 +21,12 @@ function HeroSection() {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4 pt-4">
-            <button className="bg-gradient-to-r from-pink-500 to-indigo-500 text-white px-6 py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl transition transform hover:scale-105">
+            <a href="#portfolio" className="bg-gradient-to-r from-pink-500 to-indigo-500 text-white px-6 py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl transition transform hover:scale-105 inline-block">
               See My Work
-            </button>
-            <button className="text-gray-700 border border-gray-300 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition">
+            </a>
+            <a href="#contact" className="text-gray-700 border border-gray-300 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition inline-block">
               Contact Me
-            </button>
+            </a>
           </div>
           
           {/* Social Icons (dengan SVG) */}

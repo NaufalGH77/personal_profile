@@ -47,11 +47,6 @@ function PortfolioSection() {
         ))}
       </div>
 
-      <div className="flex justify-center mt-12">
-        <button className="bg-pink-500 text-white px-8 py-3 rounded-xl font-semibold hover:bg-pink-600 transition shadow-md">
-          More on Dribbble
-        </button>
-      </div>
     </section>
   );
 }

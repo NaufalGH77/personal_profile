@@ -1,6 +1,7 @@
 // src/components/Navbar.js
 
 import React, { useState } from 'react';
+import logo from '../assets/images/Logo.png';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +11,9 @@ function Navbar() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         
         {/* Logo MyProfile */}
-        <div className="text-2xl font-bold text-gray-800">MyProfile</div>
+        <a href="#About" className="flex items-center">
+          <img src={logo} alt="Kyro" className="h-12 w-auto rounded-full shadow-md hover:shadow-2xl transition-shadow duration-200 ease-in-out" />
+        </a>
 
         {/* Menu Navigasi (Desktop) */}
         <div className="hidden md:flex items-center space-x-8">

@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="py-8 text-center text-sm text-gray-500 bg-white border-t border-gray-100">
       <p>
-        © 2024 Karya Pribadi. Crafted with ❤️ in Jakarta.
+        © 2025 Naufal Abdullah Baso. All rights reserved.
       </p>
     </footer>
   );

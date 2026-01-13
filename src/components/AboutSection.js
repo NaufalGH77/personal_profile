@@ -29,7 +29,7 @@ function AboutSection() {
           </h3>
           
           <p className="text-gray-500">
-            A 20 year old human. I love creating engaging, beautiful, functional, and user-centered interfaces. I started my journey in graphic design but quickly fell in love with coding and turning my designs into interactive digital products.
+            A 21 year old human. taking bachelor degree in Information System at Universitas Negeri Surabaya. Interested in developing website and designing UI/UX.
           </p>
           
           {/* Skills Tag / Badges */}
