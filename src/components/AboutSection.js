@@ -1,7 +1,7 @@
 // src/components/AboutSection.js
 
 import React from 'react';
-import profileAbout from '../assets/images/profile_about.png'; // Ganti path gambar Anda
+import profileAbout from '../assets/images/about picture.jpg'; // Ganti path gambar Anda
 
 function AboutSection() {
   return (
@@ -29,7 +29,7 @@ function AboutSection() {
           </h3>
           
           <p className="text-gray-500">
-            A 21 year old human. taking bachelor degree in Information System at Universitas Negeri Surabaya. Interested in developing website and designing UI/UX.
+            A 21 year old Information Systems undergraduate student at Universitas Negeri Surabaya with a solid background in UI/UX design using Canva and Figma. Proficient in website development utilizing HTML, CSS, JavaScript, PHP, Node, and React as well using PostgreSQL and MySQL for database. Currently focused on enhancing skills in enterprise systems. Demonstrates strong soft skills, including effective teamwork, adaptability, problem-solving, and patience, which contribute to a collaborative and productive work environment.
           </p>
           
           {/* Skills Tag / Badges */}
@@ -41,6 +41,8 @@ function AboutSection() {
             <span className="bg-green-100 text-green-800 text-sm font-medium px-4 py-2 rounded-full">Figma</span>
             <span className="bg-indigo-100 text-indigo-800 text-sm font-medium px-4 py-2 rounded-full">PHP</span>
             <span className="bg-red-100 text-red-800 text-sm font-medium px-4 py-2 rounded-full">Node</span>
+            <span className="bg-slate-200 text-slate-800 text-sm font-medium px-4 py-2 rounded-full">TailwindCSS</span>
+            <span className="bg-sky-200 text-sky-800 text-sm font-medium px-4 py-2 rounded-full">Git</span>
           </div>
 
           <div className="pt-6">
