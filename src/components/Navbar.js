@@ -12,7 +12,8 @@ function Navbar() {
         
         {/* Logo MyProfile */}
         <a href="#About" className="flex items-center">
-          <img src={logo} alt="Kyro" className="h-12 w-auto rounded-full shadow-md hover:shadow-2xl transition-shadow duration-200 ease-in-out" />
+          <img src={logo} alt="myprofile logo" className="h-12 w-auto rounded-full shadow-md hover:shadow-2xl transition-shadow duration-200 ease-in-out" />
+          <span className="ml-3 text-xl font-semibold text-gray-800">Naufal</span>
         </a>
 
         {/* Menu Navigasi (Desktop) */}
@@ -24,7 +25,7 @@ function Navbar() {
           
           {/* Tombol CTA */}
           <a href="#contact">
-            <button className="bg-gradient-to-r from-indigo-500 to-pink-500 text-white px-5 py-2 rounded-lg font-medium shadow-lg hover:opacity-90 transition">
+            <button className="bg-gradient-to-r from-blue-500 to-blue-900 text-white px-5 py-2 rounded-lg font-medium shadow-lg hover:opacity-90 transition">
               Say Hi!
             </button>
           </a>

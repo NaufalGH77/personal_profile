@@ -34,14 +34,17 @@ function AboutSection() {
           
           {/* Skills Tag / Badges */}
           <div className="flex flex-wrap gap-3 justify-center md:justify-start pt-4">
-            <span className="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-2 rounded-full">UI/UX Design</span>
-            <span className="bg-blue-100 text-blue-800 text-sm font-medium px-4 py-2 rounded-full">Web Development</span>
-            <span className="bg-pink-100 text-pink-800 text-sm font-medium px-4 py-2 rounded-full">Branding</span>
-            <span className="bg-yellow-100 text-yellow-800 text-sm font-medium px-4 py-2 rounded-full">Motion Graphic</span>
+            <span className="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-2 rounded-full">HTML</span>
+            <span className="bg-blue-100 text-blue-800 text-sm font-medium px-4 py-2 rounded-full">CSS</span>
+            <span className="bg-pink-100 text-pink-800 text-sm font-medium px-4 py-2 rounded-full">JavaScript</span>
+            <span className="bg-yellow-100 text-yellow-800 text-sm font-medium px-4 py-2 rounded-full">React</span>
+            <span className="bg-green-100 text-green-800 text-sm font-medium px-4 py-2 rounded-full">Figma</span>
+            <span className="bg-indigo-100 text-indigo-800 text-sm font-medium px-4 py-2 rounded-full">PHP</span>
+            <span className="bg-red-100 text-red-800 text-sm font-medium px-4 py-2 rounded-full">Node</span>
           </div>
 
           <div className="pt-6">
-            <button className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl transition">
+            <button className="bg-gradient-to-r from-zinc-400 to-blue-500 text-white px-6 py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl transition">
               Let's Connect
             </button>
           </div>

@@ -49,7 +49,7 @@ function ContactSection() {
               <input type="text" placeholder="Your name" className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition"/>
               <input type="email" placeholder="Email" className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition"/>
               <textarea placeholder="Message" rows="5" className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition"></textarea>
-              <button type="submit" className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-xl font-semibold hover:opacity-90 transition shadow-lg">
+              <button type="submit" className="w-full bg-gradient-to-r from-indigo-500 to-blue-700 text-white px-6 py-3 rounded-xl font-semibold hover:opacity-90 transition shadow-lg">
                 Send Message
               </button>
             </form>
