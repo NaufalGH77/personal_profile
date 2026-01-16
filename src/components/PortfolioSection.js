@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import dashboardMockup from '../assets/images/EduPioneer.png'; // Ganti path gambar Anda
 import mobileAppMockup from '../assets/images/Moodey.png';
-import motionGraphicMockup from '../assets/images/motion_graphic_example.png';
+import motionGraphicMockup from '../assets/images/ReLog.png';
 
 const allProjectLink = 'https://drive.google.com/drive/folders/1n-v1QRl2ZngzBmwzpJzzq4YEfuWeSM-v?usp=sharing';
 
@@ -27,7 +27,7 @@ const ProjectCard = ({ imageSrc, title, category, onClick }) => {
 const projectsData = [
     { image: dashboardMockup, title: "EduPioneer", category: "UI/UX Design, Frontend, Backend", description: "A full-featured LMS web application with course management and progress tracking used for either student or teacher.", link: "https://edupioneer-frontend.vercel.app" },
     { image: mobileAppMockup, title: "Moodey", category: "UI/UX Design", description: "Figma responsive design for Website based music player called 'Moodey' with mood scroller for user to have playlist based on mood.", link: "https://www.figma.com/design/qhE9qz9Q42PS6w7ktL81qh/Naufal-Abdullah-Baso---Mini-Project-Moodey?node-id=0-1&t=CuMFnHcv1H5mf7N2-1" },
-    { image: motionGraphicMockup, title: "Motion Graphic", category: "Animation", description: "Short motion graphic created for branding and social campaigns.", link: "https://example.com/motion" },
+    { image: motionGraphicMockup, title: "ReLog", category: "Website, Frontend, Backend", description: "'ReLog' AKA Rental Logistic, used for renting or buying some logistic stuff like Forklift, Pallet, or transporting logistic.", link: "https://example.com/motion" },
   ];
 
 function PortfolioSection() {
