@@ -25,11 +25,13 @@ function AboutSection() {
         <div className="md:w-1/2 space-y-6 text-center md:text-left order-2">
           
           <h3 className="text-2xl font-semibold text-gray-800">
-            Hi, I'm Naufal, a passionate designer and frontend developer
+            Hi, I'm Naufal, a passionate designer and web developer
           </h3>
           
           <p className="text-gray-500">
-            A 21 year old Information Systems undergraduate student at Universitas Negeri Surabaya with a solid background in UI/UX design using Canva and Figma. Proficient in website development utilizing HTML, CSS, JavaScript, PHP, Node, and React as well using PostgreSQL and MySQL for database. Currently focused on enhancing skills in enterprise systems. Demonstrates strong soft skills, including effective teamwork, adaptability, problem-solving, and patience, which contribute to a collaborative and productive work environment.
+            A 21 year old Information Systems undergraduate student at Universitas Negeri Surabaya with a solid background in UI/UX design using Canva and Figma. 
+            Proficient in website development utilizing HTML, CSS, JavaScript, PHP, Node, and React as well using Node, PostgreSQL and MySQL for database. 
+            Currently focused on enhancing skills in enterprise systems. Demonstrates strong soft skills, including effective teamwork, adaptability, problem-solving, and patience, which contribute to a collaborative and productive work environment.
           </p>
           
           {/* Skills Tag / Badges */}
