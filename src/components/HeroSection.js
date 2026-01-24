@@ -13,7 +13,7 @@ function HeroSection() {
           <p className="text-lg text-gray-600">Hello, I'm Naufal</p>
           
           <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight">
-            Creative Designer & <br className="hidden md:inline" /> Frontend Developer
+            Creative Designer & <br className="hidden md:inline" /> Website Developer
           </h1>
           
           <p className="text-gray-500 max-w-lg mx-auto md:mx-0">
