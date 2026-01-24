@@ -5,7 +5,7 @@ import dashboardMockup from '../assets/images/EduPioneer.png'; // Ganti path gam
 import mobileAppMockup from '../assets/images/Moodey.png';
 import motionGraphicMockup from '../assets/images/ReLog.png';
 
-const allProjectLink = 'https://drive.google.com/drive/folders/1n-v1QRl2ZngzBmwzpJzzq4YEfuWeSM-v?usp=sharing';
+const allProjectLink = 'https://drive.google.com/file/d/1KlhHmnDt_bNyS--vOIODo53Yz1p8CnWO/view?usp=sharing';
 
 const ProjectCard = ({ imageSrc, title, category, onClick }) => {
   return (
