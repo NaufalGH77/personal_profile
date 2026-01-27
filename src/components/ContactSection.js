@@ -21,7 +21,7 @@ function ContactSection() {
             <div className="space-y-3 pt-6 text-gray-700">
               <p>📍 Surabaya, ID</p>
               <p>📧 naufalabdullahbaso@gmail.com</p>
-              <p>📱 +62-895-3616-10051</p>
+              <p>📱 +62-838-5411-6846</p>
             </div>
             
             {/* Social Icons (dengan SVG) */}
